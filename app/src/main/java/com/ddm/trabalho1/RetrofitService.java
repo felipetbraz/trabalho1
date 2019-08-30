@@ -9,7 +9,7 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class RetrofitService {
-    private String baseUrl = "https://jsonplaceholder.typicode.com/";
+    private String baseUrl = "http://10.10.90.100:8080/";
     private EndPoints api;
     private static RetrofitService instancia;
 
